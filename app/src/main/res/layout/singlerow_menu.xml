@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="@color/cust"
+    android:layout_weight="5"
+    tools:context="com.example.maticzok.sw.MainActivity">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@android:drawable/arrow_up_float"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:id="@+id/menuicon"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:text="JAKAM"
+       android:textSize="30sp"
+       android:textColor="@color/black"
+       android:id="@+id/menuoptionname"
+       android:gravity="center"
+       android:layout_weight="4"/>
+
+
+</LinearLayout>

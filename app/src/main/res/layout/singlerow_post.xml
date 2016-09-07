@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@color/cust"
+
+    tools:context="com.example.maticzok.sw.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/cust"
+    android:text="Title: some title longerlonget"
+    android:textSize="30sp"
+    android:textColor="@color/black"
+    android:id="@+id/posttitle"
+    />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/black"
+       android:text="quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveni"
+       android:textSize="15sp"
+       android:background="@color/cust"
+       android:layout_below="@+id/posttitle"
+       android:id="@+id/postbody"
+       />
+
+
+</RelativeLayout>

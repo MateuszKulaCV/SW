@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RestApi Service</string>
+    <string-array name="OptionItems">
+        <item>Favourite</item>
+        <item>Search</item>
+        <item>Options</item>
+    </string-array>
+</resources>

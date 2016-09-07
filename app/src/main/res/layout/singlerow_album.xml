@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="5"
+    android:background="@color/cust"
+    android:descendantFocusability="blocksDescendants"
+    tools:context="com.example.maticzok.sw.MainActivity">
+
+<TextView
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:text="12"
+
+    android:textSize="30sp"
+    android:id="@+id/albumId"
+    android:textColor="@color/black"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="JAKAM"
+       android:textColor="@color/black"
+       android:textSize="15sp"
+       android:gravity="center"
+       android:layout_toRightOf="@+id/albumId"
+       android:id="@+id/albumName"
+       />
+
+
+</RelativeLayout>
